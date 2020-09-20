@@ -31,7 +31,7 @@ body{
 }
 #Logo{
  width: 45%;
- 
+ image-rendering: pixelated;
 }
 
 img{
@@ -46,6 +46,7 @@ img{
 #titulo{
     font-size: 40px;
     padding-top: 3px;
+    font-family: monospace;
 }
 
 #Botn_Siguente{
