@@ -27,11 +27,12 @@ body{
     margin: 0px auto;
     border: 3px solid black;
     border-radius: 8px;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 18px 18px 0px #212529;
 }
 #Logo{
- width: 45%;
- image-rendering: pixelated;
+ width: 60%;
+ /*image-rendering: pixelated;*/
+ margin-bottom: 15px;
 }
 
 img{
@@ -47,6 +48,7 @@ img{
     font-size: 40px;
     padding-top: 3px;
     font-family: monospace;
+    margin-bottom: 15px;
 }
 
 #Botn_Siguente{
@@ -64,4 +66,12 @@ img{
     transition: all 0.5ms;
     background: #ce4257;
     color: white;
+}
+
+#title{
+    font-size: 25px;
+    padding-top: 3px;
+    font-family: monospace;
+    margin-bottom: 15px;
+    color: black;
 }
