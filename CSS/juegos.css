@@ -65,7 +65,29 @@ body{
     width: 35%;
     height: 210px;
     display: block;
-    background: #ffffff;
+    background: #ffba08;
     margin: auto;
     border-radius: 8px;
+}
+
+#Reinicio{
+    width: 95%;
+    background: #8d99ae;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    margin-top: 30px;
+}
+
+#Reinicio:hover{
+    transition: all 0.5ms;
+    background: #ced4da;
+    color: white;
+}
+
+#parrafo{
+    margin-top: 45px;
 }
