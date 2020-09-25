@@ -14,16 +14,20 @@ window.addEventListener("load", function () {
         contador++;
         document.querySelector("#Resu_division").innerHTML = contador;
         if (contador == 50) {
-            div_mensaje.innerHTML = frases[Math.floor(Math.random() * frases.length)] + "<br><a href=juego.html>Click Para Reiciar</a>";
+            div_mensaje.innerHTML = frases[Math.floor(Math.random() * frases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
         } else if (contador == 51) {
             div_mensaje.innerHTML = mensaje_blanco;
         } else if (contador == 100) {
-            div_mensaje.innerHTML = frases[Math.floor(Math.random() * frases.length)] + "<br><a href=juego.html>Click Para Reiciar</a>";
+            div_mensaje.innerHTML = frases[Math.floor(Math.random() * frases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
         } else if (contador == 101) {
             div_mensaje.innerHTML = mensaje_blanco;
         } else if (contador == 500) {
-            div_mensaje.innerHTML = frases[Math.floor(Math.random() * frases.length)] + "<br><a href=juego.html>Click Para Reiciar</a>";
+            div_mensaje.innerHTML = frases[Math.floor(Math.random() * frases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
         } else if (contador == 501) {
+            div_mensaje.innerHTML = mensaje_blanco;
+        } else if (contador == 1000) {
+            div_mensaje.innerHTML = frases[Math.floor(Math.random() * frases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
+        } else if (contador == 1001) {
             div_mensaje.innerHTML = mensaje_blanco;
         }
     }
