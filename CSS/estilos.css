@@ -8,7 +8,7 @@ body{
     background: #a8dadc;
 }
 
-#cabecera {
+#Headboard {
     width: 100%;
     height: 90px;
     margin: 0px auto;
@@ -20,7 +20,7 @@ body{
     text-align: center;
  }
 
-#div_principal{
+#div_main{
     width: 45%;
     height: 450px;
     background: #ffba08;
@@ -44,14 +44,14 @@ img{
 
 #Logo:hover {filter: sepia(60%);}
 
-#titulo{
+#Title_main{
     font-size: 40px;
     padding-top: 3px;
     font-family: monospace;
     margin-bottom: 15px;
 }
 
-#Botn_Siguente{
+#Botn_Next{
     width: 50%;
     background: #e71d36;
     border: none;
@@ -62,13 +62,13 @@ img{
     color: white;
 }
 
-#Botn_Siguente:hover{
+#Botn_Next:hover{
     transition: all 0.5ms;
     background: #ce4257;
     color: white;
 }
 
-#title{
+#title_second{
     font-size: 25px;
     padding-top: 3px;
     font-family: monospace;
@@ -80,7 +80,7 @@ img{
 
 /*PANTALLAS PEQUEÑAS*/
 @media (min-width: 320px) and (max-width: 480px){
-    #div_principal{
+    #div_main{
         width: 90%;
         height: 450px;
         background: #ffba08;
@@ -94,14 +94,14 @@ img{
         margin-bottom: 25px;
        }
 
-       #titulo{
+       #Title_main{
         font-size: 35px;
         padding-top: 3px;
         font-family: monospace;
         margin-bottom: 25px;
     }
 
-    #Botn_Siguente{
+    #Botn_Next{
         width: 65%;
         background: #e71d36;
         border: none;
@@ -112,13 +112,13 @@ img{
         color: white;
     }
     
-    #Botn_Siguente:hover{
+    #Botn_Next:hover{
         transition: all 0.5ms;
         background: #ce4257;
         color: white;
     }
 
-    #title{
+    #title_second{
         font-size: 25px;
         padding-top: 3px;
         font-family: monospace;
@@ -129,7 +129,7 @@ img{
 
 /*PANTALLA PEQUEÑA 2*/
 @media (max-width: 708px) and (min-width: 568px){
-    #div_principal{
+    #div_main{
         width: 90%;
         height: 450px;
         background: #ffba08;
@@ -141,7 +141,7 @@ img{
 }
 
 @media (max-width: 640px) and (min-width: 420px){
-    #cabecera {
+    #Headboard {
         width: 100%;
         height: 55px;
         margin: 0px auto;
@@ -150,7 +150,7 @@ img{
 
 /*PANTALLAS MEDIANAS*/
 @media (min-width: 768px) and (max-width: 1024px){
-    #div_principal{
+    #div_main{
         width: 85%;
         height: 450px;
         background: #ffba08;
@@ -160,7 +160,7 @@ img{
         box-shadow: 18px 18px 0px #212529; 
     }
 
-    #Botn_Siguente{
+    #Botn_Next{
         width: 40%;
         background: #e71d36;
         border: none;
@@ -171,7 +171,7 @@ img{
         color: white;
     }
     
-    #Botn_Siguente:hover{
+    #Botn_Next:hover{
         transition: all 0.5ms;
         background: #ce4257;
         color: white;
@@ -179,7 +179,7 @@ img{
 }
 
 @media (max-width: 1001px) and (min-width: 790px){
-    #div_principal{
+    #div_main{
         width: 85%;
         height: 450px;
         background: #ffba08;
@@ -196,7 +196,7 @@ img{
 }
 /*PANTALLAS GRANDES*/
 @media (max-width: 1280px) and (min-width: 800px){
-    #div_principal{
+    #div_main{
         width: 80%;
         height: 450px;
         background: #ffba08;
@@ -212,7 +212,7 @@ img{
 }
 
 @media (max-width: 1360px) and (min-width: 768px){
-    #div_principal{
+    #div_main{
         width: 75%;
         height: 450px;
         background: #ffba08;
