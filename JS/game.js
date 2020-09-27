@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
     function Contando() {
         counter++;
         document.querySelector("#Resu_division").innerHTML = counter + " Veces";
-        if (counter == 50) {
+        /*if (counter == 50) {
             div_message.innerHTML = phrases[Math.floor(Math.random() * phrases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
         } else if (counter == 51) {
             div_message.innerHTML = message_white;
@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
             div_message.innerHTML = answer[Math.floor(Math.random() * answer.length)];
             button.style.background = "#ccc";
             button.disabled = true;
-        }
+        }*/
     }
 
     button.addEventListener("click", function () {
