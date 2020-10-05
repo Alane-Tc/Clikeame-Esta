@@ -72,7 +72,7 @@ body{
 
 #Reinicio{
     width: 95%;
-    background: #8d99ae;
+    background: #1d3557;
     border: none;
     padding: 10px;
     font-size: 15px;
@@ -84,7 +84,7 @@ body{
 
 #Reinicio:hover{
     transition: all 0.5ms;
-    background: #ced4da;
+    background: #457b9d;
     color: white;
 }
 
