@@ -9,43 +9,25 @@ window.addEventListener("load", function () {
         "Titulo Ramdom 5", "Titulo Ramdom 6 ", "Titulo Ramdom 7", "Titulo Ramdom 8",
         "Titulo Ramdom 9", "Titulo Ramdom 10"];
 
-    const answer = ["Random 1", "Random 2", "Random 3", "Random 4", "Random 5",
-        "Random 6", "Random 7", "Random 8", "Random 9", "Random 10"];
+    const answer = ["Ya perdiste jajaja", "Sigue intentado", "Qué pendejo estas", "Vulve a intentarlo", "JAJAJAJAJA",
+    "¿Qué?, ¿No puedes ganar?", "Eres un perdedor", "Ya rindete joder", "Pinche chairo estúpido", "F en el chat shavales"];
 
     document.querySelector("#Resu_division").innerHTML = "0" + " Veces";
     function Contando() {
+        var aleatorio = Math.round(Math.random() * 20);
         counter++;
         document.querySelector("#Resu_division").innerHTML = counter + " Veces";
-        /*if (counter == 50) {
-            div_message.innerHTML = phrases[Math.floor(Math.random() * phrases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
-        } else if (counter == 51) {
-            div_message.innerHTML = message_white;
-        } else if (counter == 100) {
-            div_message.innerHTML = phrases[Math.floor(Math.random() * phrases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
-        } else if (counter == 101) {
-            div_message.innerHTML = message_white;
-        } else if (counter == 500) {
-            div_message.innerHTML = phrases[Math.floor(Math.random() * phrases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
-        } else if (counter == 501) {
-            div_message.innerHTML = message_white;
-        } else if (counter == 1000) {
-            div_message.innerHTML = phrases[Math.floor(Math.random() * phrases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
-        } else if (counter == 1001) {
-            div_message.innerHTML = message_white;
-        } else if (counter == 6000) {
-            div_message.innerHTML = phrases[Math.floor(Math.random() * phrases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
-        } else if (counter == 6001) {
-            div_message.innerHTML = message_white;
-        } else if (counter == 10000) {
-            div_message.innerHTML = answer[Math.floor(Math.random() * answer.length)];
+        if (aleatorio == 5) { //Bloquear 
             button.style.background = "#ccc";
             button.disabled = true;
-        }*/
+            div_message.innerHTML = answer[Math.floor(Math.random() * answer.length)] + "<br><a href=juego.html><button type=button id= Reinicio>Reiniciar</button></a>";
+        }
+        if (counter == 50) {//GANAR 
+            div_message.innerHTML = phrases[Math.floor(Math.random() * phrases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
+        }    
     }
-
     button.addEventListener("click", function () {
         Contando();
 
     });
-
 });
