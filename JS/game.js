@@ -23,7 +23,9 @@ window.addEventListener("load", function () {
             div_message.innerHTML = answer[Math.floor(Math.random() * answer.length)] + "<br><a href=juego.html><button type=button id= Reinicio>Reiniciar</button></a>";
         }
         if (counter == 50) {//GANAR 
-            div_message.innerHTML = phrases[Math.floor(Math.random() * phrases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>¿Ya te rindes pendejo?</button></a>";
+            div_message.innerHTML = phrases[Math.floor(Math.random() * phrases.length)] + "<br><a href=juego.html><button type=button id= Reinicio>Felicidades, juega de nuevo culo</button></a>";
+            button.disabled = true;
+            button.style.background = "#ccc";
         }    
     }
     button.addEventListener("click", function () {
