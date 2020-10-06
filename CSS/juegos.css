@@ -109,3 +109,21 @@ body{
     background: #ef476f;
     color: white;
 }
+
+#End{
+    width: 95%;
+    background: #1d3557;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    margin-top: 30px;   
+}
+
+#End:hover{
+    transition: all 0.5ms;
+    background: #457b9d;
+    color: white;
+}
