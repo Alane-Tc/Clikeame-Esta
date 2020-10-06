@@ -89,5 +89,23 @@ body{
 }
 
 #parrafo{
-    margin-top: 45px;
+    margin-top: 20px;
+}
+
+#Game_Over{
+    width: 95%;
+    background: #d62828;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    margin-top: 15px; 
+}
+
+#Game_Over:hover{
+    transition: all 0.5ms;
+    background: #ef476f;
+    color: white;
 }
