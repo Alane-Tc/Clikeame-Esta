@@ -24,7 +24,7 @@ window.addEventListener("load", function () {
             "<a href=index.html><button type=button id= Game_Over>Rendirse</button></a>";
         }
         if (counter == 50) {//GANAR 
-            div_message.innerHTML = phrases[Math.floor(Math.random() * phrases.length)] + "<br><a href=juego.html><button type=button id= End>Felicidades, juega de nuevo culo</button></a>";
+            div_message.innerHTML = phrases[Math.floor(Math.random() * phrases.length)] + "<br><a href=index.html><button type=button id= End>Felicidades</button></a>";
             button.disabled = true;
             button.style.background = "#ccc";
         }    
