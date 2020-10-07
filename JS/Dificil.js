@@ -15,7 +15,6 @@ window.addEventListener("load", function(){
     function Contando() {
         var aleatorio = Math.round(Math.random() * 70);
         counter++;
-        console.log(aleatorio);
         document.querySelector("#Resu_division").innerHTML = counter + " Veces";
         if (aleatorio == 5) { //Bloquear 
             button.style.background = "#ccc";
