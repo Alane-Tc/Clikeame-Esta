@@ -42,8 +42,6 @@ img{
        
 }
 
-#Logo:hover {filter: sepia(60%);}
-
 #Title_main{
     font-size: 40px;
     padding-top: 3px;
@@ -59,9 +57,16 @@ img{
     color: black;
 }
 
+#Box-Levels{
+    margin-top: 40px;
+}
+
+
 .Levels{
     text-decoration: none;
     color: #fdfffc;
+    font-size: 40px;
+    font-family: cursive;
 }
 
 .Levels:hover{
