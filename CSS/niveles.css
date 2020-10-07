@@ -218,3 +218,43 @@ img{
         margin-bottom: 15px;
        }
 }*/
+
+/*OTRAS TAMAÑOS DE PANTALLAS*/
+@media (min-width: 540px) and (max-width: 720px){
+    #div_main{
+        width: 90%;
+        height: 450px;
+        background: #ffba08;
+        margin: 0px auto;
+        border: 3px solid black;
+        border-radius: 8px;
+        box-shadow: 5px 5px 0px #212529; 
+    }
+}
+
+@media (min-width: 280px) and (max-width: 653px){
+    #div_main{
+        width: 90%;
+        height: 450px;
+        background: #ffba08;
+        margin: 0px auto;
+        border: 3px solid black;
+        border-radius: 8px;
+        box-shadow: 5px 5px 0px #212529; 
+    }
+    #Logo{
+        width: 56%;
+        margin-bottom: 15px;
+       }
+       .Levels{
+        text-decoration: none;
+        color: #fdfffc;
+        font-size: 30px;
+        font-family: cursive;
+    }
+    
+    .Levels:hover{
+        color: #2b2d42;
+    }
+
+}
