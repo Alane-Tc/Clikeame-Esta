@@ -226,3 +226,62 @@ img{
         margin-bottom: 15px;
        }
 }
+
+/*OTRAS TAMAÑOS DE PANTALLAS*/
+@media (min-width: 540px) and (max-width: 720px){
+    #div_main{
+        width: 90%;
+        height: 450px;
+        background: #ffba08;
+        margin: 0px auto;
+        border: 3px solid black;
+        border-radius: 8px;
+        box-shadow: 5px 5px 0px #212529; 
+    }
+    #Logo{
+        width: 60%;
+        margin-bottom: 25px;
+       }
+
+       #title_second {
+        font-size: 25px;
+        padding-top: 3px;
+        font-family: monospace;
+        margin-bottom: 35px;
+        color: black;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 653px){
+    #div_main{
+        width: 90%;
+        height: 450px;
+        background: #ffba08;
+        margin: 0px auto;
+        border: 3px solid black;
+        border-radius: 8px;
+        box-shadow: 5px 5px 0px #212529; 
+    }
+
+    #Title_main {
+        font-size: 33px;
+        padding-top: 3px;
+        font-family: monospace;
+        margin-bottom: 25px;
+    }
+    #Logo{
+        width: 80%;
+        margin-bottom: 25px;
+       }
+
+    #Botn_Next {
+        width: 60%;
+        background: #e71d36;
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 8px;
+        color: white;
+    }
+}
