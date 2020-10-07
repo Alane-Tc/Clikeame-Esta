@@ -155,5 +155,32 @@ img{
     .Levels:hover{
         color: #2b2d42;
     }
+}
 
+/*PANTALLAS MEDIANAS*/
+
+/*Pantalla mediana 1*/
+@media (min-width: 768px) and (max-width: 1024px){
+    #div_main{
+        width: 85%;
+        height: 450px;
+        background: #ffba08;
+        margin: 0px auto;
+        border: 3px solid black;
+        border-radius: 8px;
+        box-shadow: 18px 18px 0px #212529; 
+    }
+
+    #Logo{
+        width: 28%;
+        margin-bottom: 25px;
+       }
+}
+
+/*Pantalla mediana 2*/
+@media (max-width: 1001px) and (min-width: 790px){
+    #Logo{
+        width: 25%;
+        margin-bottom: 25px;
+       }
 }
