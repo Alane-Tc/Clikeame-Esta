@@ -72,3 +72,88 @@ img{
 .Levels:hover{
     color: #2b2d42;
 }
+
+/***********RESPONSIVE*************/
+
+/*PANTALLAS PEQUEÑAS*/
+@media (min-width: 320px) and (max-width: 480px){
+    #div_main{
+        width: 90%;
+        height: 450px;
+        background: #ffba08;
+        margin: 0px auto;
+        border: 3px solid black;
+        border-radius: 8px;
+        box-shadow: 5px 5px 0px #212529; 
+    }
+    #Logo{
+        width: 70%;
+        margin-bottom: 25px;
+       }
+
+       #Title_main{
+        font-size: 35px;
+        padding-top: 3px;
+        font-family: monospace;
+        margin-bottom: 25px;
+    }
+
+    .Levels{
+        text-decoration: none;
+        color: #fdfffc;
+        font-size: 25px;
+        font-family: cursive;
+    }
+    
+    .Levels:hover{
+        color: #2b2d42;
+    }
+
+}
+
+/*PANTALLA PEQUEÑA 2*/
+@media (max-width: 708px) and (min-width: 568px){
+    #div_main{
+        width: 85%;
+        height: 450px;
+        background: #ffba08;
+        margin: 0px auto;
+        border: 3px solid black;
+        border-radius: 8px;
+        box-shadow: 5px 5px 0px #212529; 
+    }
+    .Levels{
+        text-decoration: none;
+        color: #fdfffc;
+        font-size: 40px;
+        font-family: cursive;
+    }
+    
+    .Levels:hover{
+        color: #2b2d42;
+    }
+}
+/*PANTALLA PEQUEÑA 3*/
+@media (max-width: 640px) and (min-width: 420px){
+    #Headboard {
+        width: 100%;
+        height: 55px;
+        margin: 0px auto;
+    }
+    #Logo{
+        width: 45%;
+        margin-bottom: 25px;
+       }
+
+       .Levels{
+        text-decoration: none;
+        color: #fdfffc;
+        font-size: 40px;
+        font-family: cursive;
+    }
+    
+    .Levels:hover{
+        color: #2b2d42;
+    }
+
+}
