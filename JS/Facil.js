@@ -16,6 +16,13 @@ window.addEventListener("load", function () {
     randomImage[0] = "img/Img_Win/win1.jpg";
     randomImage[1] = "img/Img_Win/win2.jpeg";
     randomImage[2] = "img/Img_Win/win3.jpg";
+    randomImage[3] = "img/Img_Win/win4.jpg";
+    randomImage[4] = "img/Img_Win/win5.jpg";
+    randomImage[5] = "img/Img_Win/win6.jpg";
+    randomImage[6] = "img/Img_Win/win7.jpg";
+    randomImage[7] = "img/Img_Win/win8.jpg";
+    randomImage[8] = "img/Img_Win/win9.PNG";
+    randomImage[9] = "img/Img_Win/win10.jpg";
     
     function getRandomImage() { 
         var number = Math.floor(Math.random()*randomImage.length);
