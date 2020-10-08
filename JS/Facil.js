@@ -30,7 +30,6 @@ window.addEventListener("load", function () {
         if (aleatorio == 5) { //Bloquear 
             button.style.background = "#ccc";
             button.disabled = true;
-            
             div_message.innerHTML = answer[Math.floor(Math.random() * answer.length)] + "<br><a href=juego.html><button type=button id= Reinicio>Reiniciar</button></a>"+
             "<a href=index.html><button type=button id= Game_Over>Rendirse</button></a>";
         }
