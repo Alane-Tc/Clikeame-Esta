@@ -127,3 +127,7 @@ body{
     background: #457b9d;
     color: white;
 }
+
+#generator{
+    width: 85%;
+}
