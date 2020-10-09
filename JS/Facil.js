@@ -28,7 +28,7 @@ window.addEventListener("load", function () {
         var number = Math.floor(Math.random() * randomImage.length);
         div_message.innerHTML = ('<a href=index.html><img id=generator title="Click aqui" src="' + randomImage[number] + '" /></a>');
     }
-    div_message.innerHTML = "Estas en el nivel Fácil";
+    div_message.innerHTML = "Nivel Fácil";
     document.querySelector("#Resu_division").innerHTML = "0" + " Veces";
     function Contando() {
         var aleatorio = Math.round(Math.random() * 20);
