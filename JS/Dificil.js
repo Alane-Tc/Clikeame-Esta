@@ -1,5 +1,6 @@
 window.addEventListener("load", function () {
     let counter = 0;
+    let message_white = " ";
     var button = document.querySelector("#Boton_Click");
     var div_message = document.querySelector("#parrafo");
 
@@ -22,12 +23,16 @@ window.addEventListener("load", function () {
         var number = Math.floor(Math.random() * randomImage.length);
         div_message.innerHTML = ('<a href=index.html><img id=generator title="Click aqui" src="' + randomImage[number] + '" /></a>');
     }
-
+    div_message.innerHTML = "Nivel Difícil";
     document.querySelector("#Resu_division").innerHTML = "0" + " Veces";
     function Contando() {
         var aleatorio = Math.round(Math.random() * 70);
         counter++;
         document.querySelector("#Resu_division").innerHTML = counter + " Veces";
+        if (counter == 1) {//Quitar el mensaje
+            div_message.innerHTML = message_white;
+        }
+
         if (aleatorio == 5) { //Bloquear 
             button.style.background = "#ccc";
             button.disabled = true;
