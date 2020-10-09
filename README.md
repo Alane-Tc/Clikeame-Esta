@@ -20,3 +20,10 @@
 ------------
 
 ![](https://github.com/Alane-Tc/Clikeame-Esta/blob/master/SS/SS5.PNG?raw=true)
+
+------------
+
+### Tecnologias
+- HTML
+- CSS
+- JAVASCRIPT
