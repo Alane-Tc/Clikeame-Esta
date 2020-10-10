@@ -79,6 +79,7 @@ img{
 /**************************RESPONSIVE************************************************/
 
 /*PANTALLAS PEQUEÑAS*/
+/*
 @media (min-width: 320px) and (max-width: 480px){
     #div_main{
         width: 90%;
@@ -125,9 +126,10 @@ img{
         margin-bottom: 30px;
         color: black;
     }
-}
+}*/
 
 /*PANTALLA PEQUEÑA 2*/
+/*
 @media (max-width: 708px) and (min-width: 568px){
     #div_main{
         width: 90%;
@@ -146,9 +148,10 @@ img{
         height: 55px;
         margin: 0px auto;
     }
-}
+}*/
 
 /*PANTALLAS MEDIANAS*/
+/*
 @media (min-width: 768px) and (max-width: 1024px){
     #div_main{
         width: 85%;
@@ -193,8 +196,9 @@ img{
         margin-bottom: 15px;
        }
 
-}
+}*/
 /*PANTALLAS GRANDES*/
+/*
 @media (max-width: 1280px) and (min-width: 800px){
     #div_main{
         width: 80%;
@@ -225,9 +229,9 @@ img{
         width: 40%;
         margin-bottom: 15px;
        }
-}
-
+}*/
 /*OTRAS TAMAÑOS DE PANTALLAS*/
+/*
 @media (min-width: 540px) and (max-width: 720px){
     #div_main{
         width: 90%;
@@ -284,4 +288,76 @@ img{
         border-radius: 8px;
         color: white;
     }
-}
+}*/
+
+
+@media (max-width: 575.98px) { 
+    body{background: red;}
+    
+    #div_main{
+        width: 90%;
+        height: 450px;
+        background: #ffba08;
+        margin: 0px auto;
+        border: 3px solid black;
+        border-radius: 8px;
+        box-shadow: 5px 5px 0px #212529; 
+    }
+
+    #Logo{
+        width: 75%;
+        margin-bottom: 25px;
+       }
+
+       #Title_main{
+        font-size: 34px;
+        padding-top: 3px;
+        font-family: monospace;
+        margin-bottom: 25px;
+    }
+
+    #Botn_Next{
+        width: 65%;
+        background: #e71d36;
+        border: none;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 8px;
+        color: white;
+    }
+    
+    #Botn_Next:hover{
+        transition: all 0.5ms;
+        background: #ce4257;
+        color: white;
+    }
+
+    #title_second{
+        font-size: 25px;
+        padding-top: 3px;
+        font-family: monospace;
+        margin-bottom: 30px;
+        color: black;
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    body{background: green;}
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    body{background: yellow;}
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    body{background: blue;}
+ }
+
+
+@media (min-width: 1200px) { 
+    body{background: blueviolet;}
+ }
