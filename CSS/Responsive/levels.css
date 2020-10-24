@@ -5,7 +5,7 @@
     
     #div_main{
        width: 90%;
-       height: 450px;
+       height: auto;
        background: #ffba08;
        margin: 0px auto;
        border: 3px solid black;
@@ -13,7 +13,7 @@
        box-shadow: 5px 5px 0px #212529; 
    }
    #Logo{
-       width: 58%;
+       width: 60%;
        margin-bottom: 25px;
       }
 
