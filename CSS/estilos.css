@@ -83,7 +83,7 @@ img{
     
     #div_main{
         width: 90%;
-        height: 450px;
+        height: auto;
         background: #ffba08;
         margin: 0px auto;
         border: 3px solid black;
@@ -93,7 +93,7 @@ img{
     }
 
     #Logo{
-        width: 75%;
+        width: 90%;
         margin-bottom: 25px;
        }
 
