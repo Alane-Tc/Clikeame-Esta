@@ -23,6 +23,14 @@ window.addEventListener("load", function () {
         var number = Math.floor(Math.random() * randomImage.length);
         div_message.innerHTML = ('<a href=index.html><img id=generator title="Click aqui" src="' + randomImage[number] + '" /></a>');
     }
+    let randomAleatoriorio = (aleatorio, num) => {
+        if (aleatorio == num) { //Bloquear 
+            button.style.background = "#ccc";
+            button.disabled = true;
+            div_message.innerHTML = answer[Math.floor(Math.random() * answer.length)] + "<br><a href=Dificil.html><button type=button id= Reinicio>Reiniciar</button></a>" +
+                "<a href=index.html><button type=button id= Game_Over>Rendirse</button></a>";
+        }
+    }
     div_message.innerHTML = "Nivel Difícil";
     document.querySelector("#Resu_division").innerHTML = "0" + " Veces";
     function Contando() {
@@ -32,36 +40,14 @@ window.addEventListener("load", function () {
         if (counter == 1) {//Quitar el mensaje
             div_message.innerHTML = message_white;
         }
-
-        if (aleatorio == 5) { //Bloquear 
-            button.style.background = "#ccc";
-            button.disabled = true;
-            div_message.innerHTML = answer[Math.floor(Math.random() * answer.length)] + "<br><a href=Dificil.html><button type=button id= Reinicio>Reiniciar</button></a>" +
-                "<a href=index.html><button type=button id= Game_Over>Rendirse</button></a>";
-        }
-
-        if (aleatorio == 15) { //Bloquear 
-            button.style.background = "#ccc";
-            button.disabled = true;
-            div_message.innerHTML = answer[Math.floor(Math.random() * answer.length)] + "<br><a href=Dificil.html><button type=button id= Reinicio>Reiniciar</button></a>" +
-                "<a href=index.html><button type=button id= Game_Over>Rendirse</button></a>";
-        }
-
-        if (aleatorio == 25) { //Bloquear 
-            button.style.background = "#ccc";
-            button.disabled = true;
-            div_message.innerHTML = answer[Math.floor(Math.random() * answer.length)] + "<br><a href=Dificil.html><button type=button id= Reinicio>Reiniciar</button></a>" +
-                "<a href=index.html><button type=button id= Game_Over>Rendirse</button></a>";
-        }
-
+        randomAleatoriorio(aleatorio, 5)
+        randomAleatoriorio(aleatorio, 15)
+        randomAleatoriorio(aleatorio, 25)
         if (counter == 50) {//GANAR 
             getRandomImage();
             button.disabled = true;
             button.style.background = "#ccc";
         }
     }
-    button.addEventListener("click", function () {
-        Contando();
-    });
-
+    button.addEventListener("click", function () { Contando(); });
 });
