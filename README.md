@@ -14,35 +14,12 @@ Una pequeño mini juego para estos ratos aburridos visita la pagina [Click Aqui]
 
 ![](https://github.com/Alane-Tc/Clikeame-Esta/blob/master/SS/SS1.PNG?raw=true)
 
-
-![](https://github.com/Alane-Tc/Clikeame-Esta/blob/master/SS/SS2.PNG?raw=true)
-
-
-![](https://github.com/Alane-Tc/Clikeame-Esta/blob/master/SS/SS3.PNG?raw=true)
-
-
-![](https://github.com/Alane-Tc/Clikeame-Esta/blob/master/SS/SS4.PNG?raw=true)
-
-
-![](https://github.com/Alane-Tc/Clikeame-Esta/blob/master/SS/SS5.PNG?raw=true)
-
 </details>
 
 <details>
     <summary>💻 Desktop version</summary>
+    
 ![](https://github.com/Alane-Tc/Clikeame-Esta/blob/master/SS/SS1.PNG?raw=true)
-
-
-![](https://github.com/Alane-Tc/Clikeame-Esta/blob/master/SS/SS2.PNG?raw=true)
-
-
-![](https://github.com/Alane-Tc/Clikeame-Esta/blob/master/SS/SS3.PNG?raw=true)
-
-
-![](https://github.com/Alane-Tc/Clikeame-Esta/blob/master/SS/SS4.PNG?raw=true)
-
-
-![](https://github.com/Alane-Tc/Clikeame-Esta/blob/master/SS/SS5.PNG?raw=true)
 
 </details>
 
